@@ -1,0 +1,36 @@
+.item{
+    height: 60px;  
+    cursor: grab;
+}
+.item:focus{
+    cursor: grabbing; 
+} 
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    height: 130px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(73, 35, 8);
+}
+.fruit, .vegetables{
+    border: 2px solid gray;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.row{
+    justify-content: center;
+}
